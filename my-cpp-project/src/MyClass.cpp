@@ -1,5 +1,6 @@
 #include "MyClass.h"
+#include <iostream>
 
 void MyClass::myMethod() {
-    // method implementation
+    std::cout << "Hello world!" << std::endl;
 }
