@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cmake --build build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "cmake --build build --target clean",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "build-test-run-main",
+            "type": "shell",
+            "command": "cmake --build build && ./build/tests/test_MyClass && ./build/my_cpp_project",
+            "group": "test",
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
