@@ -3,7 +3,7 @@ FROM gcc:latest
 
 # Install CMake, git and update
 RUN apt-get update && \
-    apt-get install -y cmake git libgtest-dev && \
+    apt-get install -y cmake git libgtest-dev qtbase5-dev qt5-qmake qtbase5-dev-tools && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
