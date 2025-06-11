@@ -3,6 +3,7 @@
 
 class MyClass {
 public:
+    MyClass();
     void myMethod();
 };
 
