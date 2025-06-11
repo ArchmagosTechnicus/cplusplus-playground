@@ -1,4 +1,5 @@
 #include "MyClass.h"
+#include <iostream>
 
 MyClass::MyClass() {
     // constructor implementation
@@ -6,4 +7,5 @@ MyClass::MyClass() {
 
 void MyClass::myMethod() {
     // method implementation
+    std::cout << "Hello, World!" << std::endl;
 }

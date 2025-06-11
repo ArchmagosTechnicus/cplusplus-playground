@@ -1,0 +1,13 @@
+# Ignore build output and CMake files
+build/
+my-cpp-project/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.tmp

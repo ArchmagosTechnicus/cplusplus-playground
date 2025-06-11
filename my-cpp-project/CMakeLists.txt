@@ -7,4 +7,7 @@ include_directories(include)
 
 add_subdirectory(tests)
 
+# Add a library target for MyClass and other source files
+add_library(my_cpp_project_lib src/MyClass.cpp)
+
 add_executable(my_cpp_project src/main.cpp src/MyClass.cpp)
