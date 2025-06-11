@@ -9,7 +9,6 @@
     "github.vscode-pull-request-github",
     "josetr.cmake-language-support-vscode",
     "ms-vscode.cmake-tools",
-    "ms-vscode.cpptools",
-    "twxs.cmake"
+    "ms-vscode.cpptools"
   ]
 }
